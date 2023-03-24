@@ -1,0 +1,58 @@
+signin = //a[contains(text(),'Sign in / Sign up')]
+username = //input[@id='email']
+password = //input[@id='input-password']
+teamcenter = header.site-header.main-header div.container div.row div.col-md-12 div.navbar.navbar-expand-lg.w-100.p-0 div.collapse.navbar-collapse:nth-child(5) div.navbar-nav.ml-auto.align-items-center div.right_nav li.user_icon.d-none.d-lg-inline-block.h-profile.nav-item.show.dropdown div.dropdown-menu.show ul:nth-child(2) li:nth-child(2) > a.dropdown-item
+eventname = test 22 aug 2022 sprint (2022)
+invitebtn = //button[contains(text(),'Invite Runner')]
+inviteeEmail = //body/ngb-modal-window[1]/div[1]/div[1]/app-runner-volunteer-invite[1]/div[2]/form[1]/div[1]/div[1]/div[1]/input[1]
+sendinvitebtn = //body[1]/ngb-modal-window[1]/div[1]/div[1]/app-runner-volunteer-invite[1]/div[2]/form[1]/div[1]/div[1]/div[1]/span[1]/button[1]
+invitationSuccesfullySent = body.modal-open:nth-child(2) ngb-modal-window.d-block.modal.runner_volunteer_invite.fade.show:nth-child(21) div.modal-dialog.modal-dialog-centered.modal-dialog-scrollable div.modal-content app-runner-volunteer-invite.component-host-scrollable div.modal-body.team-center-roster form.ng-untouched.ng-pristine.ng-valid div.roster-invite-inner.link-sent.volunteer-invite-popup-inner app-team-center-invitation-list:nth-child(2) div.d-inline-flex div.flexitem > span.invite-title
+invitelink= //div[contains(text(),'Text copied to clipboard')]
+
+{Road Team purchase}
+northwestpassage_road= //body[1]/app-root[1]/app-header[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/div[1]/div[1]/div[4]/app-header-races[1]/div[1]/ul[1]/li[3]/a[1]
+viewpricing= //a[contains(text(),'VIEW PRICING')]
+register_btn= //div[@class='row']//div[1]//div[2]//div[3]//a[1]
+teambuilder_uname= //body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[1]/md-input-container[1]/input[1]
+teambuilder_pwd= //body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[1]/md-input-container[2]/input[1]
+next_btn_road= //button[normalize-space()='Next']
+question= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-info[1]/div[1]/div[1]/form[1]/div[1]/team-builder-registration-form[1]/div[1]/div[17]/md-input-container[2]/include[1]/team-builder-registration-form-fields-select[1]/md-select[1]
+question_yes= //div[contains(text(),'Yes')]
+team_type_dropdown_road= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-info[1]/div[1]/div[1]/form[1]/div[1]/div[2]/md-input-container[2]/md-select[1]
+Standard_team_road= //md-option[@id='select_option_26']
+State_field= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-info[1]/div[1]/div[1]/form[1]/div[1]/team-builder-registration-form[1]/div[1]/div[11]/md-input-container[2]/md-select[1]/md-select-value[1]/span[1]
+Complete_purchase_road= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[4]/button[1]
+team_purchase_waiver= //div[@class='md-container md-ink-ripple']
+complete_purchase= //button[normalize-space()='Complete Purchase']
+team_purchase_note= //h2[normalize-space()='Thank You For Your Order!']
+
+{Trail Team purchase}
+newjersey_trail= //div[2]//app-header-races[1]//div[1]//ul[1]//li[3]//a[1]
+team_type_dropdown_trail= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-info[1]/div[1]/div[1]/form[1]/div[1]/div[2]/md-input-container[2]/md-select[1]
+Standard_team_trail= select_option_26
+Ultra_team_trail= select_option_27
+Highschool_team_trail= select_option_28
+next_btn_trail= //button[normalize-space()='Next']
+Complete_purchase_trail= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[4]/button[1]
+
+{Trail Member Registration}
+trailmember_user_name= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[1]/md-input-container[1]/input[1]
+trailmember_password= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[1]/md-input-container[2]/input[1]
+trailmember_submitbtn= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[3]/button[1]
+
+{Sprint Team purchase}
+sanfrancisco_sprint= /html[1]/body[1]/app-root[1]/app-header[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/div[1]/div[1]/div[4]/app-header-races[1]/div[1]/ul[1]/li[7]/a[1]
+register_btn_sprint= /html[1]/body[1]/app-root[1]/div[1]/app-pages[1]/div[1]/app-event-detail[1]/div[1]/div[2]/app-event-detail-registration[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/a[1]
+Standard_team_sprint= select_option_26
+Ultra_team_sprint= select_option_27
+Highschool_team_sprint= select_option_28
+next_btn_sprint= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-info[1]/div[1]/div[1]/form[1]/div[2]/button[1]
+Card_Name= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/md-input-container[1]/input[1]
+Card_Number= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/md-input-container[1]/input[1]
+Expiration_date= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/md-input-container[1]/input[1]
+CVV= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/md-input-container[2]/input[1]
+Zip= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-registration[1]/ui-view[1]/team-builder-registration-captain[1]/div[1]/ui-view[1]/team-builder-registration-captain-payment[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/md-input-container[3]/input[1]
+
+{register team}
+uname_register= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[1]/md-input-container[1]/input[1]
+passwd_register= /html[1]/body[1]/ui-view[1]/team-builder[1]/div[1]/ui-view[1]/team-builder-login[1]/div[1]/div[1]/form[1]/div[1]/md-input-container[2]/input[1]
